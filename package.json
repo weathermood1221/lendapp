@@ -1,0 +1,21 @@
+{
+  "name": "lendapp",
+  "version": "1.0.0",
+  "description": "Licensed moneylender lending app: borrower PWA + admin panel",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "better-sqlite3": "^13.2.0",
+    "express": "^5.3.0",
+    "web-push": "^4.0.0"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "private": true
+}

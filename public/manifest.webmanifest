@@ -1,0 +1,15 @@
+{
+  "name": "Loans",
+  "short_name": "Loans",
+  "description": "Apply for a loan, see your repayment schedule and get payment reminders.",
+  "start_url": "/?source=pwa#home",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f7f4ec",
+  "theme_color": "#0e5a44",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
